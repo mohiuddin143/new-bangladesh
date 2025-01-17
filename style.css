@@ -2,13 +2,22 @@
 
 * {
     font-family: "Fira Sans", serif;
-    max-width: 1600px;
+    max-width: 1280px;
     margin: 0px;
     padding: 0px;
 }
 /* Shared styles */
 .green-1 {
     color: #006A50;
+}
+.btn-primary {
+    padding: 20px 30px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
 }
 nav {
     display: flex;
@@ -31,4 +40,32 @@ nav button {
     margin: 24px 0px;
     font-size: 18px;
     font-weight: 600;
+}
+/* banner styles */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 24px;
+    background-color: #C6E4D6;
+}
+.banner-column {
+    max-width: 600px;
+    margin: 30px 20px;
+    padding: 20px;
+}
+.banner-qoute {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.5);
+}
+.banner-title {
+    color: #0E0E0E;
+    font-size: 56px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+.banner-img {
+    width: 470px;
+    height: 400px;
 }
