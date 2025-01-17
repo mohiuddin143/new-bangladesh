@@ -11,13 +11,21 @@
     color: #006A50;
 }
 .btn-primary {
-    padding: 20px 30px;
-    background-color: #006A50;
+    padding: 10px 20px;
     color: #FFFFFF;
     font-size: 18px;
     font-weight: 600;
     border: none;
     border-radius: 5px;
+}
+.title-primary{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.description-primary {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
 }
 nav {
     display: flex;
@@ -65,7 +73,52 @@ nav button {
     font-weight: bold;
     margin: 20px 0px;
 }
+.banner-btn {
+    background-color:#006A50;;
+}
 .banner-img {
     width: 470px;
     height: 400px;
+}
+/* vision styles */
+.vision {
+    margin: 50px 0px;
+    padding: 0px 25px;
+}
+.vision-description {
+    padding: 20px 0px;
+}
+.vision-cards {
+    display: flex;
+    gap: 20px;
+}
+.vision-card1 {
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 30px;
+    border-radius: 15px;
+}
+.vision-card2 {
+    background-color: rgba(198, 228, 214, 1);
+    padding: 30px;
+    border-radius: 15px;
+}
+.vision-card3 {
+    background-color: rgba(247, 235, 207, 1);
+    padding: 30px;
+    border-radius: 15px;
+}
+.vision-card-title {
+    padding: 10px 0px;
+}
+.vision-card-btn1 {
+    background-color: #5490F5;
+    margin: 25px 0px;
+}
+.vision-card-btn2 {
+    background-color: #09A15C;
+    margin: 25px 0px;
+}
+.vision-card-btn3 {
+    background-color: #FFC239;
+    margin: 25px 0px;
 }
