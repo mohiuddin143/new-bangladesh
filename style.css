@@ -30,6 +30,9 @@
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
 }
+.gap10bottom {
+    padding-bottom: 10px;
+}
 nav {
     display: flex;
     align-items: center;
@@ -125,14 +128,19 @@ nav button {
     background-color: #FFC239;
     margin: 25px 0px;
 }
+.quote-container {
+    margin: 30px 25px;
+    padding: 20px 0px;
+    background-image: url("assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+}
 
 /* Recent News ---Satellite */
 .recent-container {
     margin: 50px 0px 30px 0px;
 }
-.gap10bottom {
-    padding-bottom: 10px;
-}
+
 .recent-container h1 {
     padding-bottom: 20px;
 }
