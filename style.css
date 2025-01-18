@@ -10,6 +10,9 @@
 .green-1 {
     color: #006A50;
 }
+.green-bc {
+    background-color: #006A50;
+}
 .btn-primary {
     padding: 10px 20px;
     color: #FFFFFF;
@@ -190,4 +193,42 @@ nav button {
 .donate-btn {
     background-color: #006A50;
     margin: 20px 43%;
+}
+/* Newsletter */
+.newsletter {
+    background-color: rgba(198, 228, 214, 1);
+    padding: 80px 265px;
+}
+.newsletter-container {
+    max-width: 750px;
+    align-items: center;
+}
+.submit-container {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+.input-item {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 18px 400px 18px 40px
+}
+.input-email {
+    border: none;
+}
+.btn-item {
+    padding: 16px 35px;
+    border: none;
+}
+
+/* hover effect */
+.btn-primary:hover {
+    background-color: blueviolet;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.donate-card:hover {
+    background-color: #006A50;
+    cursor: pointer;
+    transition: all 0.5s ease;
 }
